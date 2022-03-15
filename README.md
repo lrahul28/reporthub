@@ -1,4 +1,4 @@
-# nc-fintech-ui
+
 
 
 To run this app,
