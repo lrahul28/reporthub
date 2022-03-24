@@ -20,7 +20,7 @@ const routes = [
     element: <Welcome />
   },
   {
-    path: 'dashboard',
+    path: '/dashboard',
     element: <Dashboard />,
     children: [
       {

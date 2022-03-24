@@ -1,13 +1,13 @@
-import logo from '../logo.svg';
+import NavBar from './Welcome Components/navBar';
+import AuthDetails from './Welcome Components/authorization';
+import MyCarousel from './Welcome Components/Carousal';
 
 const Welcome = () => (
-  <header className="App-header">
-    <img src={logo} className="App-logo" alt="logo" />
-    <p>
-      Edit <code className="text-8xl font-bold">src/App.js</code> and save to
-      reload.
-    </p>
-  </header>
+  <div>
+  <NavBar />
+  <MyCarousel/>
+  <AuthDetails/>
+  </div>
 );
 
 export default Welcome;
